@@ -1,0 +1,26 @@
+{
+  "name": "rental_listing_nl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node scrape.mjs",
+    "watch": "node scrape.mjs --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciprian1992/rental_listing_nl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ciprian1992/rental_listing_nl/issues"
+  },
+  "homepage": "https://github.com/ciprian1992/rental_listing_nl#readme",
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}
